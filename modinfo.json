@@ -1,0 +1,17 @@
+{
+    "context": "client",
+    "identifier": "com.pa.domdom.nuke_ping",
+    "display_name": "Nuclear Ping",
+    "description": "Never miss a ping again! Ping effect replaced with the nuclear effect!",
+    "author": "dom314",
+    "version": "1.1.0",
+    "signature": "not yet implemented",
+    "forum": "https://forums.uberent.com/threads/two-mod-requests.69260/#post-1095363",
+    "category": [
+        "in-game",
+        "effects"
+    ],
+    "priority": 100,
+    "build": "86422",
+    "date": "2015/08/26"
+}

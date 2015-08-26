@@ -1,0 +1,100 @@
+{
+    "options" : {
+        "debug_mode" : false,
+        "output_dir" : "..",
+        "pretty_print_effects" : true,
+        "indent" : 2
+    },
+    "modinfo" : {
+        "context": "client",
+        "identifier": "com.pa.domdom.nuke_ping",
+        "display_name": "Nuclear Ping",
+        "description": "Never miss a ping again! Ping effect replaced with the nuclear effect!",
+        "author": "dom314",
+        "version": "1.1.0",
+        "signature": "not yet implemented",
+        "forum": "https://forums.uberent.com/threads/two-mod-requests.69260/#post-1095363",
+        "category": [
+            "in-game",
+            "effects"
+        ],
+        "priority": 100,
+        "build": "83796",
+        "date": "2015/07/17"
+    },
+    "mod" : [
+        {
+            "target" : "/pa/units/land/nuke_launcher/nuke_launcher_ammo_explosion.pfx",
+            "destination" : "/pa/effects/specs/ping.pfx",
+            "patch" : [
+                { "op" : "add", "path" : "/emitters/0/useArmyColor", "value" : 1},
+                { "op" : "copy", "path" : "/emitters/1/spec/green", "from" : "/emitters/1/spec/red"},
+                { "op" : "copy", "path" : "/emitters/1/spec/blue", "from" : "/emitters/1/spec/red"},
+
+                { "op" : "add", "path" : "/emitters/1/useArmyColor", "value" : 1},
+                { "op" : "copy", "path" : "/emitters/1/spec/green", "from" : "/emitters/1/spec/red"},
+                { "op" : "copy", "path" : "/emitters/1/spec/blue", "from" : "/emitters/1/spec/red"},
+
+                { "op" : "add", "path" : "/emitters/2/useArmyColor", "value" : 1},
+                { "op" : "copy", "path" : "/emitters/2/spec/green", "from" : "/emitters/2/spec/red"},
+                { "op" : "copy", "path" : "/emitters/2/spec/blue", "from" : "/emitters/2/spec/red"},
+
+                { "op" : "add", "path" : "/emitters/3/useArmyColor", "value" : 1},
+                { "op" : "copy", "path" : "/emitters/3/spec/green", "from" : "/emitters/3/spec/red"},
+                { "op" : "copy", "path" : "/emitters/3/spec/blue", "from" : "/emitters/3/spec/red"},
+
+                { "op" : "add", "path" : "/emitters/4/useArmyColor", "value" : 1},
+                { "op" : "copy", "path" : "/emitters/4/spec/green", "from" : "/emitters/4/spec/red"},
+                { "op" : "copy", "path" : "/emitters/4/spec/blue", "from" : "/emitters/4/spec/red"},
+
+                { "op" : "add", "path" : "/emitters/5/useArmyColor", "value" : 1},
+                { "op" : "copy", "path" : "/emitters/5/spec/green", "from" : "/emitters/5/spec/red"},
+                { "op" : "copy", "path" : "/emitters/5/spec/blue", "from" : "/emitters/5/spec/red"},
+
+                { "op" : "add", "path" : "/emitters/6/useArmyColor", "value" : 1},
+                { "op" : "copy", "path" : "/emitters/6/spec/red", "from" : "/emitters/6/spec/green"},
+                { "op" : "copy", "path" : "/emitters/6/spec/blue", "from" : "/emitters/6/spec/red"},
+
+                { "op" : "add", "path" : "/emitters/7/useArmyColor", "value" : 1},
+                { "op" : "copy", "path" : "/emitters/7/spec/green", "from" : "/emitters/7/spec/red"},
+                { "op" : "copy", "path" : "/emitters/7/spec/blue", "from" : "/emitters/7/spec/red"},
+
+                { "op" : "add", "path" : "/emitters/8/useArmyColor", "value" : 1},
+                { "op" : "copy", "path" : "/emitters/8/spec/green", "from" : "/emitters/8/spec/red"},
+                { "op" : "copy", "path" : "/emitters/8/spec/blue", "from" : "/emitters/8/spec/red"},
+
+                { "op" : "add", "path" : "/emitters/9/useArmyColor", "value" : 1},
+                { "op" : "copy", "path" : "/emitters/9/spec/green", "from" : "/emitters/9/spec/red"},
+                { "op" : "copy", "path" : "/emitters/9/spec/blue", "from" : "/emitters/9/spec/red"},
+
+                { "op" : "add", "path" : "/emitters/10/useArmyColor", "value" : 1},
+                { "op" : "copy", "path" : "/emitters/10/spec/green", "from" : "/emitters/10/spec/red"},
+                { "op" : "copy", "path" : "/emitters/10/spec/blue", "from" : "/emitters/10/spec/red"},
+
+                { "op" : "add", "path" : "/emitters/11/useArmyColor", "value" : 1},
+                { "op" : "copy", "path" : "/emitters/11/spec/green", "from" : "/emitters/11/spec/red"},
+                { "op" : "copy", "path" : "/emitters/11/spec/blue", "from" : "/emitters/11/spec/red"},
+
+                { "op" : "add", "path" : "/emitters/12/useArmyColor", "value" : 1},
+                { "op" : "copy", "path" : "/emitters/12/spec/green", "from" : "/emitters/12/spec/red"},
+                { "op" : "copy", "path" : "/emitters/12/spec/blue", "from" : "/emitters/12/spec/red"},
+
+                { "op" : "add", "path" : "/emitters/13/useArmyColor", "value" : 1},
+                { "op" : "copy", "path" : "/emitters/13/spec/green", "from" : "/emitters/13/spec/red"},
+                { "op" : "copy", "path" : "/emitters/13/spec/blue", "from" : "/emitters/13/spec/red"},
+
+                { "op" : "add", "path" : "/emitters/14/useArmyColor", "value" : 1},
+                { "op" : "copy", "path" : "/emitters/14/spec/green", "from" : "/emitters/14/spec/red"},
+                { "op" : "copy", "path" : "/emitters/14/spec/blue", "from" : "/emitters/14/spec/red"},
+
+                { "op" : "add", "path" : "/emitters/15/useArmyColor", "value" : 1},
+                { "op" : "copy", "path" : "/emitters/15/spec/green", "from" : "/emitters/15/spec/red"},
+                { "op" : "copy", "path" : "/emitters/15/spec/blue", "from" : "/emitters/15/spec/red"},
+
+                { "op" : "add", "path" : "/emitters/16/useArmyColor", "value" : 1},
+                { "op" : "copy", "path" : "/emitters/16/spec/green", "from" : "/emitters/16/spec/red"},
+                { "op" : "copy", "path" : "/emitters/16/spec/blue", "from" : "/emitters/16/spec/red"}
+            ]
+        }
+    ]
+}
