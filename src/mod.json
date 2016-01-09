@@ -18,6 +18,10 @@
             "in-game",
             "effects"
         ],
+        "product": [
+            "Titans",
+            "Classic"
+        ],
         "priority": 100,
         "build": "83796",
         "date": "2015/07/17"

@@ -11,7 +11,11 @@
         "in-game",
         "effects"
     ],
+    "product": [
+        "Titans",
+        "Classic"
+    ],
     "priority": 100,
-    "build": "86422",
-    "date": "2015/08/26"
+    "build": "89755",
+    "date": "2016/01/09"
 }
